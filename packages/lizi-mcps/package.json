@@ -11,7 +11,7 @@
     "./computer": "./src/computer/index.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "test": "vitest run"
   },
   "author": {

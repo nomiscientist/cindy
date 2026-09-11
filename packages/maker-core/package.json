@@ -13,7 +13,7 @@
     "./pi-subagent-runs": "./src/agents/pi/pi-subagent-runs.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "test": "vitest run",
     "lint": "eslint src/"
   },

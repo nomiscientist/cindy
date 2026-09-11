@@ -2,7 +2,7 @@
   "name": "cindy-tools",
   "version": "0.0.0",
   "private": true,
-  "description": "Cindy 意识系统的内部工具集(MCP),包含 ghost 总机(ghost_list / ghost_info / ghost_manual / ghost_call);意识系统新工具统一放入本包。",
+  "description": "Cindy \u610f\u8bc6\u7cfb\u7edf\u7684\u5185\u90e8\u5de5\u5177\u96c6(MCP),\u5305\u542b ghost \u603b\u673a(ghost_list / ghost_info / ghost_manual / ghost_call);\u610f\u8bc6\u7cfb\u7edf\u65b0\u5de5\u5177\u7edf\u4e00\u653e\u5165\u672c\u5305\u3002",
   "type": "module",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -10,7 +10,7 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "test": "vitest run"
   },
   "author": {

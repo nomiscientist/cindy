@@ -6,8 +6,8 @@
   "description": "Tauri-based Windows updater for Cindy. Spawned by the main app from %TEMP% to swap appDir/* and relaunch the new exe.",
   "scripts": {
     "tauri": "tauri",
-    "dev": "tauri dev",
-    "build": "tauri build"
+    "dev": "node init && tauri dev",
+    "build": "node init && tauri build"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^2.1.0"

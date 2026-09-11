@@ -10,7 +10,7 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "native:build": "tsx scripts/build-native-sidecar.mjs",
     "native:framebuffer-smoke": "tsx scripts/native-framebuffer-smoke.ts",
     "native:h264-smoke": "tsx scripts/native-h264-smoke.ts",

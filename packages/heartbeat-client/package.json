@@ -2,7 +2,7 @@
   "name": "@cindy/heartbeat-client",
   "version": "0.0.0",
   "private": true,
-  "description": "客户端在线心跳模块: 周期向 heartbeat-server 上报 uid, 维持 App 在线状态。零依赖、Electron-agnostic。",
+  "description": "\u5ba2\u6237\u7aef\u5728\u7ebf\u5fc3\u8df3\u6a21\u5757: \u5468\u671f\u5411 heartbeat-server \u4e0a\u62a5 uid, \u7ef4\u6301 App \u5728\u7ebf\u72b6\u6001\u3002\u96f6\u4f9d\u8d56\u3001Electron-agnostic\u3002",
   "type": "module",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -10,7 +10,7 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit"
+    "build": "node init && tsc --noEmit"
   },
   "author": {
     "name": "XD Inc.",

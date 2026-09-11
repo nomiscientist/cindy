@@ -11,7 +11,7 @@
     "./types": "./src/types.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "test": "vitest run"
   },
   "license": "Apache-2.0",

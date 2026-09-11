@@ -80,7 +80,7 @@
     "./botDelegation": "./src/botDelegation.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "test": "vitest run",
     "lint": "eslint src/"
   },

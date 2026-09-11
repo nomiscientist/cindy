@@ -13,7 +13,7 @@
     "./codec": "./src/codec.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "bundle": "node build.mjs",
     "test": "vitest run",
     "test:watch": "vitest"

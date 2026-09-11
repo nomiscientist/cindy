@@ -21,7 +21,7 @@
     "./invocation": "./src/invocation.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "test": "vitest run"
   },
   "author": {

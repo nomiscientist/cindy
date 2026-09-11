@@ -12,7 +12,7 @@
     "./fixtures": "./fixtures/loginScenarios.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "test": "vitest run"
   },
   "dependencies": {

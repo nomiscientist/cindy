@@ -12,7 +12,7 @@
     "./prompt": "./src/orca-bridge-prompt.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "lint": "eslint src/",
     "test": "vitest run"
   },

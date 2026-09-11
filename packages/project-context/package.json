@@ -9,9 +9,9 @@
     "project-context": "dist/cli.js"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsx watch src/cli.ts",
-    "start": "node dist/cli.js",
+    "build": "node init && tsc",
+    "dev": "node init && tsx watch src/cli.ts",
+    "start": "node init && node dist/cli.js",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write src/"

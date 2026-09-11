@@ -12,7 +12,7 @@
     "./ssrf-runtime": "./src/shim/ssrf-runtime.ts"
   },
   "scripts": {
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "test": "vitest run"
   },
   "author": {

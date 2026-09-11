@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "generate": "node --experimental-strip-types src/generate.ts",
-    "build": "tsc --noEmit",
+    "build": "node init && tsc --noEmit",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "check:generated": "node --experimental-strip-types src/generate.ts --check"
