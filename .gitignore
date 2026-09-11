@@ -14,8 +14,6 @@ __pycache__/
 *.py[cod]
 
 # ── 环境变量 / 凭证（样例白名单豁免）────────────────────────
-.env
-.env.*
 !.env.example
 !.env.*.example
 *.secret
@@ -84,7 +82,6 @@ docs/superpowers/
 
 # ── IDE / 本地知识工具 ───────────────────────────────────────
 .idea/
-.vscode/
 .vs/
 .fleet/
 .zed/
@@ -198,3 +195,4 @@ github-result-*.json
 
 # 内置插件种子已废弃(改走 plugin-store 安装);历史克隆含私有插件与凭证,永不入仓。
 apps/desktop/resources/builtin-ghosts/
+config.bat
